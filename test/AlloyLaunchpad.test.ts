@@ -32,3 +32,4 @@ describe("AlloyLaunchpad", function () {
     await expect(launchpad.launch("Test", "TST", ethers.ZeroAddress)).to.be.revertedWith("insufficient fee");
   });
 });
+
