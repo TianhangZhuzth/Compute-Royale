@@ -27,3 +27,4 @@
 - AlloyMeme dividend claim gas reduced by 31% (index math refactor)
 - ReentrancyGuard added to all external entry points
 - Fuzz tests for DistributionMath.claimable()
+
