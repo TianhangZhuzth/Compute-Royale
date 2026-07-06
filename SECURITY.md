@@ -14,3 +14,4 @@ Responsible disclosure: open a private GitHub security advisory.
 - The keeper is permissionless but not trustless.
 - LP positions are permanently locked — no withdrawal function by design.
 - Backing stock oracle uses Robinhood-issued tokenized stock prices (centralized at issuance layer).
+
