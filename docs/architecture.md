@@ -94,3 +94,4 @@ The cost is that buyers holding the native token need routing. The interface han
 
 `launch()` cannot be written with nested ternaries feeding a Uniswap `MintParams` literal. Even with `viaIR` and the optimizer enabled, the Yul stack scheduler fails with `Variable is N too deep in the stack`. The working form assigns fields onto a memory struct with straight-line `if/else` branches, and factors swaps into a `_swap` helper. This is a compiler constraint, not a style preference.
 
+
